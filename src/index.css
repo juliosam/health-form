@@ -21,18 +21,23 @@ code {
 }
 
 form{
-  background-color: rgb(110, 216, 235);
+  background-color: rgb(176, 211, 218);
   padding: 30px;
   border-radius: 12px;
   width: 1000px;
-  text-align: center;
   margin-bottom: 100px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h2{ margin: 0 0 30px 0; color: rgb(5, 63, 110);}
 
 .input-container{
-  height: 212px;
+  width: 1000px;
+  max-height: 210px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -45,6 +50,7 @@ h2{ margin: 0 0 30px 0; color: rgb(5, 63, 110);}
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+  height: 50px;
 }
 
 label{
@@ -55,7 +61,7 @@ label{
 }
 
 input{
-  width: 100px;
+  width: 120px;
   height: 23px;
   border-radius: 3px;
   border: none

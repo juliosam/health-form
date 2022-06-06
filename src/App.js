@@ -78,7 +78,7 @@ export default function App() {
       id:7, 
       name:"meatMeals",
       type:"text", 
-      placeholder: "Weekly meat meals",
+      placeholder: "Meat meals/week",
       label: "Your average meals with meat a week", 
       errorMessage: "Please enter number between 0 and 30",
       pattern: "^([0-9]|[1-2][0-9]|30)$$",
